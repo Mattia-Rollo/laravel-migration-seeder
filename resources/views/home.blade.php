@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
-@section('titolo','Treni per Tutti')
-@endsection
+
 @section('content')
+    <ul>
     @foreach ($trains as $item)
-        
+       <li>{{$item}}</li> 
     @endforeach
+    </ul>
 @endsection
