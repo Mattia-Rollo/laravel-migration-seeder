@@ -16,8 +16,10 @@
 </head>
 
 <body>
-    <h1>@yield('title','Default Title')</h1>
+    <div class="container">
+    <h1 class="py-4">@yield('title','Default Title')</h1>
     @yield('content')
+    </div>
 </body>
 
 </html>
