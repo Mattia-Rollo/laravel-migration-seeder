@@ -15,7 +15,7 @@ Tanti Treni TuTti Belli Tranne Uno
         <th scope="col">Orario Arrivo</th>
       </tr>
     </thead>
-    <tbody>
+    <tbody class="table-group-divider">
         @foreach ($trains as $item)
         {{-- <li>{{$item->orario_partenza}}</li>  --}}
       <tr>
